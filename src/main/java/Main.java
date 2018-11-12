@@ -1,10 +1,7 @@
-package com.mycompany.spbot;
-
-import javax.print.*;
+import javax.print.PrintException;
 
 public class Main {
-
-    public static void main(String args[]) throws PrintException {
+    public static void main(String[] args) throws Exception {
         String filename;
         if (args.length < 1) {
             filename = "file.pdf";
